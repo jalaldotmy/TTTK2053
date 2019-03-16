@@ -1,24 +1,23 @@
 #include <stdio.h>
 
 int main(void){
-	float grade;
+	float gpa;
 
 	printf("Input the Grade Point Average : ");
-	scanf("%f", &grade);
+	scanf("%lf", &gpa);
 	
-	if (grade < 0.0)
-		printf("Failed semester—registration suspended");
-	else if (grade < 1.00)
+	if (gpa <= 0.99)
+		printf("Failed semesterâ€”registration suspended");
+	else if (gpa <= 1.99)
 		printf("On probation for next semester");
-	else if (grade < 2.99)
+	else if (gpa <= 2.99)
 		printf("(no message)");
-	else if (grade < 3.49)
-		printf("Dean’s list for semester");
-	else if (grade < 4.00)
+	else if (gpa <= 3.49)
+		printf("Deanâ€™s list for semester");
+	else if (gpa <= 4.00)
 		printf("Highest honors for semester");
 	else
 		printf("No Grade Point Average Found");
 	
-	getchar(); getchar(); 
-	return (0);
+	return 0;
 }
