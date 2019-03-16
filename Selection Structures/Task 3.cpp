@@ -4,7 +4,7 @@ int main(void){
 	float gpa;
 
 	printf("Input the Grade Point Average : ");
-	scanf("%lf", &gpa);
+	scanf("%f", &gpa);
 	
 	if (gpa <= 0.99)
 		printf("Failed semester—registration suspended");
