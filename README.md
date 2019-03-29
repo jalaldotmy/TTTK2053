@@ -1,4 +1,4 @@
-# MODULE 5 : Script Programming - Introduction and Data Processing
+# MODULE 2: Imperative programming: Selections and RepetitionsIntroduction to C Programming
 TTTK2053 - Paradigma Pengaturcaraan (WP)
 Fakulti Teknologi & Sains Maklumat (FTSM)
 Universiti Kebangsaan Malaysia (UKM)
